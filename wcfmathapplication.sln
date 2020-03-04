@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wcfmathapplication", "wcfmathapplication\wcfmathapplication.csproj", "{16F4FC2A-1DD5-4E21-B9BB-0CE748B136E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfTestApp", "WcfTestApp\WcfTestApp.csproj", "{FE467DC3-6E4D-485D-9F76-8D804F84044A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{16F4FC2A-1DD5-4E21-B9BB-0CE748B136E0} = {16F4FC2A-1DD5-4E21-B9BB-0CE748B136E0}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16F4FC2A-1DD5-4E21-B9BB-0CE748B136E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F4FC2A-1DD5-4E21-B9BB-0CE748B136E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F4FC2A-1DD5-4E21-B9BB-0CE748B136E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F4FC2A-1DD5-4E21-B9BB-0CE748B136E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE467DC3-6E4D-485D-9F76-8D804F84044A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE467DC3-6E4D-485D-9F76-8D804F84044A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE467DC3-6E4D-485D-9F76-8D804F84044A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE467DC3-6E4D-485D-9F76-8D804F84044A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FB53C19-6A51-45E5-A224-A6BF996A6E87}
+	EndGlobalSection
+EndGlobal
